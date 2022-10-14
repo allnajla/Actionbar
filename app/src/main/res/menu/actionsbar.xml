@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto">>
+    <item
+        android:id="@+id/red"
+        android:icon="@drawable/ic_baseline_color_red"
+        android:title="Red"
+        ActionBar:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/green"
+        android:icon="@drawable/ic_baseline_color_green"
+        android:title="Green"
+        ActionBar:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/yellow"
+        android:icon="@drawable/ic_baseline_color_yellow"
+        android:title="Yellow"
+        ActionBar:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/gray"
+        android:icon="@drawable/ic_baseline_color_gray"
+        android:title="Gray"
+        ActionBar:showAsAction="always|withText"/>
+</menu>
